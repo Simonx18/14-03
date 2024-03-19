@@ -1,0 +1,19 @@
+.book-card {
+    margin-bottom: 20px;
+  }
+  
+  .book-card img {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  @media (min-width: 768px) {
+    .book-card {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  }
+  .book-card.added {
+    border: 2px solid green;
+  }
+  
